@@ -34,7 +34,7 @@ model.compile(optimizer=tf.keras.optimizers.SGD(),loss=tf.keras.losses.MeanSquar
 To train the neural network to 'learn' the relationship between the Xs and Ys, you will use model.fit.
 
 This function will train the model in a loop where it will make a guess, measure how good or bad it is (aka the loss),
- use the optimizer to make another guess, etc. It will repeat this process for the number of epochs you specify, which in this lab is 50.
+w use the optimizer to make another guess, etc. It will repeat this process for the number of epochs you specify, which in this lab is 50.
 """
 model.fit(xs, ys, epochs=50)
 
