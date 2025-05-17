@@ -1,4 +1,5 @@
 numpy 
+pandas
 scipy
 protobuf
 typing-extensions
@@ -7,3 +8,5 @@ crewai_tools==0.1.6
 langchain_community
 tensorflow
 tensorflow-datasets
+scikit-learn
+google-cloud-bigquery
